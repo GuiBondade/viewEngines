@@ -1,8 +1,82 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  font: 16px "Verdana", "Trebuchet MS", Arial, sans-serif;
+  background: linear-gradient(180deg, #eef4fb 0%, #dfeaf7 100%);
+  color: #1f2d3d;
 }
 
 a {
-  color: #00B7FF;
+  color: #1564a7;
+}
+
+.pagina-contatos {
+  max-width: 980px;
+  margin: 34px auto 20px;
+  padding: 0 18px;
+}
+
+.cabecalho-contatos {
+  background: #ffffff;
+  border: 1px solid #c8d9ec;
+  border-radius: 14px;
+  padding: 22px;
+  box-shadow: 0 8px 18px rgba(26, 71, 112, 0.12);
+}
+
+.cabecalho-contatos h1 {
+  margin: 0 0 10px;
+  color: #0f4d82;
+}
+
+.resumo {
+  margin: 0;
+  line-height: 1.55;
+}
+
+.resumo + .resumo {
+  margin-top: 8px;
+}
+
+.grade-contatos {
+  margin-top: 18px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 14px;
+}
+
+.card-contato {
+  background: #ffffff;
+  border: 1px solid #c5d8ee;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 10px rgba(29, 68, 104, 0.12);
+}
+
+.card-contato h2 {
+  margin: 0 0 10px;
+  font-size: 1.1rem;
+  color: #0c3f6b;
+}
+
+.card-contato p {
+  margin: 6px 0;
+}
+
+.nota {
+  margin-top: 10px;
+  color: #375b7d;
+  font-size: 0.95rem;
+}
+
+.rodape-contatos {
+  margin-top: 24px;
+  background: #0f4d82;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 10px;
+}
+
+.rodape-contatos p {
+  margin: 0;
 }

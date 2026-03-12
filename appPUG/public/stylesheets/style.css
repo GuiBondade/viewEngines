@@ -1,8 +1,93 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  font: 16px "Trebuchet MS", Helvetica, Arial, sans-serif;
+  background: linear-gradient(180deg, #fff7ed 0%, #fde5d2 100%);
+  color: #2f1f14;
 }
 
 a {
-  color: #00B7FF;
+  color: #255f85;
+}
+
+.vitrine {
+  max-width: 980px;
+  margin: 36px auto 24px;
+  padding: 0 18px;
+}
+
+.hero {
+  background: #ffffff;
+  border: 2px solid #f3c6a5;
+  border-radius: 14px;
+  padding: 22px;
+  box-shadow: 0 8px 20px rgba(120, 64, 25, 0.14);
+}
+
+.hero h1 {
+  margin: 0 0 8px;
+  color: #a2420f;
+}
+
+.subtitulo {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.lista-produtos {
+  margin-top: 20px;
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.card-produto {
+  background: #fffefa;
+  border: 1px solid #f0c5a4;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 10px rgba(114, 72, 45, 0.12);
+}
+
+.card-produto h2 {
+  margin: 0 0 10px;
+  color: #8b360a;
+  font-size: 1.1rem;
+}
+
+.descricao {
+  margin: 0 0 12px;
+  line-height: 1.45;
+}
+
+.preco {
+  margin: 0 0 12px;
+  font-weight: 700;
+  color: #1b5f89;
+}
+
+.botao-comprar {
+  display: inline-block;
+  text-decoration: none;
+  background: #1b5f89;
+  color: #ffffff;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-weight: 700;
+}
+
+.botao-comprar:hover {
+  background: #124967;
+}
+
+.rodape {
+  margin-top: 26px;
+  background: #8b360a;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 10px;
+}
+
+.rodape p {
+  margin: 0;
 }

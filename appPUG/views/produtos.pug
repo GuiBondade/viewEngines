@@ -1,0 +1,36 @@
+extends layout
+
+block content
+  main.vitrine
+    section.hero
+      h1= title
+      p.subtitulo
+        Confira alguns produtos comuns a venda com bom custo-beneficio para o dia a dia.
+
+    section.lista-produtos
+      article.card-produto
+        h2 Caderno Universitario
+        p.descricao 200 folhas, capa resistente e divisorias internas para estudos e trabalho.
+        p.preco R$ 24,90
+        a.botao-comprar(href='#') Comprar
+
+      article.card-produto
+        h2 Mochila Casual
+        p.descricao Espaco para notebook, bolso frontal e alcas confortaveis para uso diario.
+        p.preco R$ 89,90
+        a.botao-comprar(href='#') Comprar
+
+      article.card-produto
+        h2 Fone Bluetooth
+        p.descricao Audio limpo, bateria de longa duracao e conexao rapida com celular.
+        p.preco R$ 129,90
+        a.botao-comprar(href='#') Comprar
+
+      article.card-produto
+        h2 Garrafa Termica
+        p.descricao Mantem bebidas geladas ou quentes por horas, ideal para rotina de estudos.
+        p.preco R$ 39,90
+        a.botao-comprar(href='#') Comprar
+
+  footer.rodape
+    p Guilherme Scandolara Selau | guilhermesjs9@gmail.com
