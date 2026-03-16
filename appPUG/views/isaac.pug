@@ -1,0 +1,36 @@
+extends layout
+
+block content
+  main.pagina-jogos
+    a.voltar-jogos(href='/jogos') Voltar para jogos
+
+    section.cabecalho-jogos
+      span.etiqueta-jogos Destaque indie
+      h1 The Binding of Isaac
+      p.subtitulo
+        The Binding of Isaac e um roguelike de acao com salas geradas de forma
+        procedural e foco em combinacoes de itens. Sem spoilers: a progressao
+        incentiva tentativa e erro, com partidas diferentes e desafios crescentes.
+
+    section.grade-isaac
+      figure.visual-jogos
+        img(
+          src='https://static.wikia.nocookie.net/p__/images/1/12/Isaac_.png/revision/latest?cb=20180611062057&path-prefix=protagonist'
+          alt='Capa com o personagem principal Isaac'
+          loading='lazy'
+          referrerpolicy='no-referrer'
+        )
+        figcaption
+          | Imagem da internet (fonte: Heroes Wiki - Fandom).
+
+      article.info-isaac
+        h2 Sobre o jogo
+        p
+          | O jogo combina ritmo rapido, exploracao e decisao tatica durante cada run.
+          | A variedade de inimigos, poderes e mapas cria alto fator de rejogabilidade.
+        p
+          | Ideal para quem gosta de progresso por habilidade e descobertas constantes.
+        a.botao-jogos(href='https://store.steampowered.com/app/250900/The_Binding_of_Isaac_Rebirth/' target='_blank' rel='noopener noreferrer') Ver pagina oficial
+
+  footer.rodape
+    p Guilherme Scandolara Selau | guilhermesjs9@gmail.com

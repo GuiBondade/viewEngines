@@ -1,0 +1,37 @@
+<svg width="1200" height="680" viewBox="0 0 1200 680" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fundo" x1="90" y1="70" x2="1120" y2="620" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D3558"/>
+      <stop offset="1" stop-color="#081E33"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="170" y1="120" x2="980" y2="540" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#62D6FF"/>
+      <stop offset="1" stop-color="#2D8DE2"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="680" rx="30" fill="url(#fundo)"/>
+
+  <circle cx="220" cy="180" r="110" fill="#124A79"/>
+  <circle cx="980" cy="510" r="170" fill="#0E3253"/>
+
+  <rect x="124" y="92" width="952" height="496" rx="28" fill="#0B2741" stroke="#1F5D8E" stroke-width="4"/>
+
+  <rect x="168" y="132" width="866" height="170" rx="20" fill="url(#neon)"/>
+  <text x="600" y="238" fill="#0A2640" font-size="86" font-family="Trebuchet MS, sans-serif" text-anchor="middle" font-weight="700">MUSICAS</text>
+
+  <rect x="188" y="334" width="440" height="218" rx="18" fill="#113A5D" stroke="#2B6D9E" stroke-width="3"/>
+  <circle cx="318" cy="442" r="84" fill="#081C2F"/>
+  <circle cx="318" cy="442" r="44" fill="#5BC7FC"/>
+  <rect x="428" y="380" width="154" height="18" rx="8" fill="#77D3FF"/>
+  <rect x="428" y="414" width="122" height="18" rx="8" fill="#77D3FF"/>
+  <rect x="428" y="448" width="144" height="18" rx="8" fill="#77D3FF"/>
+  <rect x="428" y="482" width="102" height="18" rx="8" fill="#77D3FF"/>
+
+  <rect x="660" y="334" width="352" height="218" rx="18" fill="#102F4C" stroke="#2B6D9E" stroke-width="3"/>
+  <path d="M760 500V388L922 434V548" stroke="#77D3FF" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="760" cy="528" r="24" fill="#77D3FF"/>
+  <circle cx="922" cy="576" r="24" fill="#77D3FF"/>
+
+  <text x="836" y="522" fill="#D6EDFF" font-size="31" font-family="Trebuchet MS, sans-serif" text-anchor="middle" font-weight="600">Ritmo e emocao</text>
+</svg>

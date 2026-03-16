@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <main class="container pagina-detalhe">
+      <a class="voltar" href="/filmes">Voltar para filmes</a>
+
+      <section class="hero-filmes">
+        <span class="tag">Filme em destaque</span>
+        <h1><%= title %></h1>
+        <p class="resumo">
+          Em uma fase de vazio pessoal, um homem conhece uma figura carismatica e
+          impulsiva que muda completamente sua rotina. Sem spoilers: o filme mistura
+          critica social, identidade e um ritmo intenso que prende do inicio ao fim.
+        </p>
+      </section>
+
+      <section class="grid-filme">
+        <figure class="visual-cinema">
+          <img
+            src="/images/fight-club-poster.svg"
+            alt="Poster estilizado do filme Clube da Luta"
+          />
+          <figcaption>Poster inspirado na identidade visual de Clube da Luta.</figcaption>
+        </figure>
+
+        <aside class="painel-avaliacao">
+          <h2>Avaliacao</h2>
+          <p class="nota"><strong><%= avaliacao.toFixed(1) %></strong><span>/5</span></p>
+          <p>
+            Direcao marcante, roteiro provocativo e atmosfera unica. Um filme que
+            costuma render interpretacoes diferentes a cada revisita.
+          </p>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="rodape">
+      <p>Guilherme Scandolara Selau | guilhermesjs9@gmail.com</p>
+    </footer>
+  </body>
+</html>

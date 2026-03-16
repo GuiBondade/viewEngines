@@ -1,0 +1,36 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="70" y1="60" x2="1120" y2="640" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1B3A2F"/>
+      <stop offset="1" stop-color="#0E1E19"/>
+    </linearGradient>
+    <linearGradient id="light" x1="160" y1="140" x2="1040" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4C64D" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#D16B34" stop-opacity="0.8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="700" rx="34" fill="url(#bg)"/>
+
+  <circle cx="230" cy="180" r="120" fill="#243D32"/>
+  <circle cx="980" cy="520" r="190" fill="#173126"/>
+
+  <rect x="120" y="94" width="960" height="512" rx="30" fill="#11221B" stroke="#2D4C3F" stroke-width="4"/>
+
+  <rect x="160" y="130" width="880" height="170" rx="22" fill="url(#light)"/>
+  <text x="600" y="230" fill="#102018" font-size="92" font-family="Trebuchet MS, sans-serif" text-anchor="middle" font-weight="700">CINEMA</text>
+
+  <rect x="174" y="334" width="420" height="220" rx="18" fill="#1F3A2F" stroke="#35584A" stroke-width="3"/>
+  <rect x="212" y="372" width="96" height="30" rx="6" fill="#F0B64F"/>
+  <rect x="330" y="372" width="96" height="30" rx="6" fill="#F0B64F"/>
+  <rect x="448" y="372" width="96" height="30" rx="6" fill="#F0B64F"/>
+  <rect x="212" y="426" width="332" height="92" rx="8" fill="#0F1F18"/>
+
+  <rect x="632" y="334" width="394" height="220" rx="18" fill="#132922" stroke="#35584A" stroke-width="3"/>
+  <circle cx="744" cy="444" r="64" fill="#203B30"/>
+  <circle cx="744" cy="444" r="38" fill="#F0B64F"/>
+  <circle cx="920" cy="444" r="64" fill="#203B30"/>
+  <circle cx="920" cy="444" r="38" fill="#F0B64F"/>
+
+  <text x="830" y="523" fill="#DCECE5" font-size="34" font-family="Trebuchet MS, sans-serif" text-anchor="middle" font-weight="600">Historias que ficam</text>
+</svg>

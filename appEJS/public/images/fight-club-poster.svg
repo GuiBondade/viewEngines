@@ -1,0 +1,26 @@
+<svg width="720" height="1080" viewBox="0 0 720 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="poster" x1="108" y1="92" x2="610" y2="1006" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22222A"/>
+      <stop offset="1" stop-color="#101016"/>
+    </linearGradient>
+    <linearGradient id="band" x1="104" y1="356" x2="614" y2="740" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F26FA2"/>
+      <stop offset="1" stop-color="#CF4C82"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="720" height="1080" rx="26" fill="#0B0B10"/>
+  <rect x="46" y="42" width="628" height="996" rx="22" fill="url(#poster)" stroke="#383844" stroke-width="4"/>
+
+  <circle cx="226" cy="264" r="108" fill="#2A2A36"/>
+  <circle cx="500" cy="812" r="154" fill="#1A1A24"/>
+
+  <rect x="106" y="388" width="508" height="296" rx="14" transform="rotate(-7 106 388)" fill="url(#band)"/>
+  <text x="360" y="530" fill="#190E16" font-size="68" font-family="Trebuchet MS, sans-serif" text-anchor="middle" font-weight="800">CLUBE</text>
+  <text x="360" y="612" fill="#190E16" font-size="68" font-family="Trebuchet MS, sans-serif" text-anchor="middle" font-weight="800">DA LUTA</text>
+
+  <text x="360" y="220" fill="#D9D9E1" font-size="30" font-family="Trebuchet MS, sans-serif" text-anchor="middle" letter-spacing="7">FIGHT CLUB</text>
+  <text x="360" y="918" fill="#A7A7B9" font-size="24" font-family="Trebuchet MS, sans-serif" text-anchor="middle" letter-spacing="3">POSTER ESTILIZADO</text>
+  <text x="360" y="954" fill="#8D8D9E" font-size="19" font-family="Trebuchet MS, sans-serif" text-anchor="middle" letter-spacing="2">DRAMA | SUSPENSE | 1999</text>
+</svg>

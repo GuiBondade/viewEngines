@@ -1,0 +1,36 @@
+<svg width="1200" height="680" viewBox="0 0 1200 680" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="90" y1="80" x2="1110" y2="620" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2B1640"/>
+      <stop offset="1" stop-color="#130A21"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="180" y1="130" x2="1010" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF9D4D"/>
+      <stop offset="1" stop-color="#F05F7A"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="680" rx="30" fill="url(#bg)"/>
+
+  <circle cx="210" cy="168" r="114" fill="#3B2454"/>
+  <circle cx="990" cy="514" r="170" fill="#2A1842"/>
+
+  <rect x="120" y="92" width="960" height="496" rx="28" fill="#1E1230" stroke="#553877" stroke-width="4"/>
+
+  <rect x="162" y="132" width="876" height="170" rx="20" fill="url(#shine)"/>
+  <text x="600" y="236" fill="#301728" font-size="84" font-family="Trebuchet MS, sans-serif" text-anchor="middle" font-weight="800">VIDEOGAMES</text>
+
+  <rect x="190" y="334" width="430" height="220" rx="18" fill="#281A3F" stroke="#63458A" stroke-width="3"/>
+  <rect x="250" y="402" width="124" height="84" rx="40" fill="#1B102C"/>
+  <rect x="438" y="402" width="124" height="84" rx="40" fill="#1B102C"/>
+  <rect x="330" y="426" width="150" height="36" rx="14" fill="#FF9D4D"/>
+  <circle cx="294" cy="444" r="14" fill="#F05F7A"/>
+  <circle cx="520" cy="444" r="14" fill="#F05F7A"/>
+
+  <rect x="652" y="334" width="362" height="220" rx="18" fill="#24163B" stroke="#63458A" stroke-width="3"/>
+  <path d="M730 500L790 390L850 460L920 360" stroke="#FF9D4D" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="730" cy="500" r="16" fill="#F05F7A"/>
+  <circle cx="920" cy="360" r="16" fill="#F05F7A"/>
+
+  <text x="836" y="524" fill="#EEDFFF" font-size="30" font-family="Trebuchet MS, sans-serif" text-anchor="middle" font-weight="600">Aventura em cada fase</text>
+</svg>
