@@ -2,19 +2,16 @@
 	<a class="voltar-musica" href="/musicas">Voltar para musicas</a>
 
 	<section class="cabecalho-musicas">
-		<span class="etiqueta-musica">Classico da MPB</span>
-		<h1>{{title}}</h1>
-		<p class="resumo">
-			"Azul", na voz de Gal Costa, transmite sensibilidade e uma atmosfera
-			contemplativa. A interpretacao valoriza emocao, timbre e intensidade.
-		</p>
+		<span class="etiqueta-musica">{{musica.etiqueta}}</span>
+		<h1>{{musica.titulo}}</h1>
+		<p class="resumo">{{musica.resumo}} {{musica.descricao}}</p>
 	</section>
 
 	<section class="grade-azul">
 		<figure class="visual-musica">
 			<img
-				src="/images/azul-capa.svg"
-				alt="Capa artistica inspirada na musica Azul de Gal Costa"
+				src="{{musica.capa}}"
+				alt="{{musica.alt}}"
 			/>
 			<figcaption>Capa ilustrativa inspirada na identidade da musica.</figcaption>
 		</figure>
@@ -29,7 +26,7 @@
 			</p>
 			<a
 				class="botao-secundario"
-				href="https://www.youtube.com/results?search_query=Gal+Costa+Azul"
+				href="{{musica.botaoBusca}}"
 				target="_blank"
 				rel="noopener noreferrer"
 			>

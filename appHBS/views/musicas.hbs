@@ -3,10 +3,10 @@
 		<span class="etiqueta-musica">Selecao musical</span>
 		<h1>{{title}}</h1>
 		<p class="resumo">
-			A musica conecta memorias, estilos e epocas diferentes. Nesta pagina,
-			voce encontra um destaque com identidade forte da MPB para explorar.
+			A musica conecta memorias, estilos e epocas diferentes.
 		</p>
-		<a class="botao-musica" href="/musicas/azul">Abrir pagina: Azul - Gal Costa</a>
+		<p class="resumo">{{destaque.resumo}} {{destaque.descricao}}</p>
+		<a class="botao-musica" href="/musicas/{{destaque.slug}}">Abrir pagina: {{destaque.titulo}}</a>
 	</section>
 
 	<figure class="visual-musica">

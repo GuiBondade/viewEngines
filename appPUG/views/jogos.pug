@@ -2,18 +2,33 @@ extends layout
 
 block content
   main.pagina-jogos
-    section.cabecalho-jogos
-      span.etiqueta-jogos Universo gamer
-      h1= title
-      p.subtitulo
-        Jogos de videogame unem desafio, historia e criatividade em experiencias
-        que variam entre aventura, estrategia e acao. Cada jogo traz seu proprio
-        estilo e formas diferentes de explorar o mundo.
-      a.botao-jogos(href='/jogos/isaac') Ver destaque: The Binding of Isaac
+    a.voltar-jogos(href='/jogos') Voltar para jogos
 
-    figure.visual-jogos
-      img(src='/images/jogos-banner.svg', alt='Arte ilustrativa relacionada a videogames')
-      figcaption Painel visual inspirado em controles, telas e mundos digitais.
+    section.cabecalho-jogos
+      span.etiqueta-jogos= jogo.etiqueta
+      h1= jogo.nome
+      p.subtitulo= jogo.subtitulo
+      p.subtitulo= jogo.descricao
+
+    section.grade-isaac
+      figure.visual-jogos
+        img(
+          src=jogo.imagem
+          alt=jogo.alt
+          loading='lazy'
+          referrerpolicy='no-referrer'
+        )
+        figcaption
+          | Imagem da internet (fonte: #{jogo.fonteImagem}).
+
+      article.info-isaac
+        h2 Sobre o jogo
+        p
+          | O jogo combina ritmo rapido, exploracao e decisao tatica durante cada run.
+          | A variedade de inimigos, poderes e mapas cria alto fator de rejogabilidade.
+        p
+          | Ideal para quem gosta de progresso por habilidade e descobertas constantes.
+        a.botao-jogos(href=jogo.linkOficial target='_blank' rel='noopener noreferrer') Ver pagina oficial
 
   footer.rodape
     p Guilherme Scandolara Selau | guilhermesjs9@gmail.com
