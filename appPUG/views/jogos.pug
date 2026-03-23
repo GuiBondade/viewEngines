@@ -2,33 +2,20 @@ extends layout
 
 block content
   main.pagina-jogos
-    a.voltar-jogos(href='/jogos') Voltar para jogos
-
     section.cabecalho-jogos
-      span.etiqueta-jogos= jogo.etiqueta
-      h1= jogo.nome
-      p.subtitulo= jogo.subtitulo
-      p.subtitulo= jogo.descricao
+      span.etiqueta-jogos Catalogo gamer
+      h1= title
+      p.subtitulo
+        Jogos conectam desafio, exploracao e narrativa em experiencias diferentes.
+      p.subtitulo= destaque.subtitulo
+      a.botao-jogos(href=`/jogos/${destaque.slug}`) Ver destaque: #{destaque.nome}
 
-    section.grade-isaac
-      figure.visual-jogos
-        img(
-          src=jogo.imagem
-          alt=jogo.alt
-          loading='lazy'
-          referrerpolicy='no-referrer'
-        )
-        figcaption
-          | Imagem da internet (fonte: #{jogo.fonteImagem}).
-
-      article.info-isaac
-        h2 Sobre o jogo
-        p
-          | O jogo combina ritmo rapido, exploracao e decisao tatica durante cada run.
-          | A variedade de inimigos, poderes e mapas cria alto fator de rejogabilidade.
-        p
-          | Ideal para quem gosta de progresso por habilidade e descobertas constantes.
-        a.botao-jogos(href=jogo.linkOficial target='_blank' rel='noopener noreferrer') Ver pagina oficial
+    figure.visual-jogos
+      img(
+        src='/images/jogos-banner.svg'
+        alt='Ilustracao generica sobre jogos'
+      )
+      figcaption Uma selecao para quem gosta de jogos com personalidade.
 
   footer.rodape
     p Guilherme Scandolara Selau | guilhermesjs9@gmail.com

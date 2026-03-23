@@ -21,16 +21,23 @@ const jogos = [
 
 /* GET jogos page. */
 router.get('/', function(req, res, next) {
+  const destaque = jogos[0];
+
   res.render('jogos', {
     title: 'Jogos',
     jogos: jogos,
-    destaque: jogos[0]
+    destaque: destaque
   });
 });
 
-/* GET game detail page. */
-router.get('/isaac', function(req, res, next) {
-  const jogo = jogos.find((item) => item.slug === 'isaac');
+/* GET game detail by slug. */
+router.get('/:slug', function(req, res, next) {
+  const jogo = jogos.find((item) => item.slug === req.params.slug);
+
+  if (!jogo) {
+    return res.status(404).send('Jogo nao encontrado');
+  }
+
   res.render('isaac', {
     title: jogo.nome,
     jogo: jogo

@@ -2,34 +2,36 @@
 <html lang="pt-BR">
   <head>
     <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="/stylesheets/style.css" />
   </head>
   <body>
+    <% const f = filme || {}; %>
+
     <main class="container pagina-detalhe">
       <a class="voltar" href="/filmes">Voltar para filmes</a>
 
       <section class="hero-filmes">
-        <span class="tag">Filme em destaque</span>
-        <h1><%= title %></h1>
+        <span class="tag"><%= f.tag || 'Filme em destaque' %></span>
+        <h1><%= f.titulo || title %></h1>
         <p class="resumo">
-          Em uma fase de vazio pessoal, um homem conhece uma figura carismatica e
-          impulsiva que muda completamente sua rotina. Sem spoilers: o filme mistura
-          critica social, identidade e um ritmo intenso que prende do inicio ao fim.
+          <%= f.resumo || '' %> <%= f.descricao || '' %>
         </p>
       </section>
 
       <section class="grid-filme">
         <figure class="visual-cinema">
           <img
-            src="/images/fight-club-poster.svg"
-            alt="Poster estilizado do filme Clube da Luta"
+            src="<%= f.poster || '/images/fight-club-poster.svg' %>"
+            alt="<%= f.altPoster || 'Poster estilizado do filme Clube da Luta' %>"
           />
           <figcaption>Poster inspirado na identidade visual de Clube da Luta.</figcaption>
         </figure>
 
         <aside class="painel-avaliacao">
           <h2>Avaliacao</h2>
-          <p class="nota"><strong><%= avaliacao.toFixed(1) %></strong><span>/5</span></p>
+          <p class="nota">
+            <strong><%= Number.isFinite(f.avaliacao) ? f.avaliacao.toFixed(1) : '0.0' %></strong><span>/5</span>
+          </p>
           <p>
             Direcao marcante, roteiro provocativo e atmosfera unica. Um filme que
             costuma render interpretacoes diferentes a cada revisita.
